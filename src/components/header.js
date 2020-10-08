@@ -77,9 +77,9 @@ const Header = ({ siteTitle }) => (
     <Content>
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
-        <NavLink to="/blog">"記事"</NavLink>
+        <NavLink to="/blog">ブログ</NavLink>
         <GitHubLink href="https://twitter.com/hawking_h">
-          Twitter
+          ツイッター
         </GitHubLink>
       </p>
     </Content>
@@ -91,7 +91,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `khosoda`,
 }
 
 export default Header

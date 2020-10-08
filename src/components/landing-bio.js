@@ -55,7 +55,7 @@ NameHeader.propTypes = {
 }
 
 NameHeader.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `khosoda`,
   subtitle: ``,
 }
 
