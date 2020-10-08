@@ -6,12 +6,12 @@ import React from "react"
 const Content = styled.div`
   max-width: 860px;
   padding: 1rem 1.0875rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 `
 
 const NavLink = styled(Link)`
   color: black;
-  margin-left: 15px;
+  margin-left: 19px;
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -76,7 +76,7 @@ const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
       <p>
-        <HomeLink to="/">{siteTitle}</HomeLink>
+        <HomeLink to="/">サイトトップ</HomeLink>
         <NavLink to="/blog">ブログ</NavLink>
         <GitHubLink href="https://twitter.com/hawking_h">
           ツイッター

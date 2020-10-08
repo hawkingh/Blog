@@ -49,7 +49,6 @@ const Layout = ({ children }) => (
             <p>
                 blog.khosoda.net
             </p>
-            <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
           </Footer>
         </Content>
       </>
