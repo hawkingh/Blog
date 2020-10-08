@@ -13,6 +13,7 @@ const NavLink = styled(Link)`
   color: black;
   margin-left: 40px;
   display: inline-block;
+  text-decoration: none;
   position: relative;
 
   ::after {
