@@ -15,9 +15,8 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }        
-      - { label: 'Publish Date', name: 'date', widget: 'date'}      
+      - { label: 'Publish Date', name: 'date', widget: 'date' }      
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }      
       - { label: 'Path', name: 'path', widget: 'string', default: '/blog/xx' }
       - { label: 'Blog post content', name: 'body', widget: 'markdown' }
-
