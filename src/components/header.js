@@ -11,8 +11,8 @@ const Content = styled.div`
 
 const NavLink = styled(Link)`
   color: black;
-  margin-left: 19px;
-  text-decoration: none;
+  margin-left: 40px;
+  text-decoration: underline;
   display: inline-block;
   position: relative;
 
@@ -37,7 +37,7 @@ const NavLink = styled(Link)`
 
 const GitHubLink = styled.a`
   color: black;
-  margin-left: 15px;
+  margin-left: 40px;
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -76,11 +76,8 @@ const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
       <p>
-        <HomeLink to="/">サイトトップ</HomeLink>
-        <NavLink to="/blog">ブログ</NavLink>
-        <GitHubLink href="https://twitter.com/hawking_h">
-          ツイッター
-        </GitHubLink>
+        <HomeLink to="/">トップ</HomeLink>
+        <NavLink to="/blog">記事一覧</NavLink>   
       </p>
     </Content>
   </SiteHeader>

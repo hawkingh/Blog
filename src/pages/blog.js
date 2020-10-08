@@ -12,33 +12,32 @@ const Content = styled.div`
   padding: 1.45rem 1.0875rem;
 `
 
-const ArticleDate = styled.h5`
+const ArticleDate = styled.h6`
   display: inline;
-  color: #606060;
+  color: #8c8b8b;
+  margin-left: 9px;
 `
 
 const MarkerHeader = styled.h3`
   display: inline;
-  border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(
-    -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
-  );
+  color: #1850ed;
+  text-decoration: underline;
+  font-size: 1.1rem;
+  margin-left: 10px;
+  
+  ::visited {
+      color: #ff1493;
+  }
+  
 `
 
-const ReadingTime = styled.h5`
-  display: inline;
-  color: #606060;
-`
 
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="ブログ" />
       <Content>
-        <h1>Blog</h1>
+        <h1>記事一覧</h1>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate
@@ -47,6 +46,9 @@ const IndexPage = ({ data }) => {
           })
           .map(({ node }) => (
             <div key={node.id}>
+              <div>
+                <ArticleDate>{node.frontmatter.date}</ArticleDate>
+              </div>
               <Link
                 to={node.frontmatter.path}
                 css={css`
@@ -56,11 +58,7 @@ const IndexPage = ({ data }) => {
               >
                 <MarkerHeader>{node.frontmatter.title}</MarkerHeader>
               </Link>
-              <div>
-                <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
-              </div>
-              <p>{node.excerpt}</p>
+              <p></p>
             </div>
           ))}
       </Content>
@@ -87,7 +85,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "yyyy/MM/DD")
             rawDate: date
             path
           }

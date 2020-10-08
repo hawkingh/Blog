@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `khosoda`,
-    subtitle: ``,
+    subtitle: `khosoda`,
     description: `このサイトでは、khosoda (@hawking_h)が、日々の生活や研究に関する文章を公開しています。`,
     author: `@hawking_h`,
   },

@@ -27,6 +27,8 @@ const GatsbyLink = styled.a`
 const Footer = styled.footer`
   display: flex;
   justify-content: center;
+  font-size: 0.8rem;
+  color: #8c8b8b;
 `
 
 const Layout = ({ children }) => (
@@ -47,7 +49,7 @@ const Layout = ({ children }) => (
           <main>{children}</main>
           <Footer>
             <p>
-                blog.khosoda.net
+                khosoda
             </p>
           </Footer>
         </Content>

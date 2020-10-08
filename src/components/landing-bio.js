@@ -12,18 +12,18 @@ const OuterContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  height: 78vh;
+  height: 75vh;
 `
 
 const Description = styled.p`
   padding: 0;
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
 `
 
 const NameHeader = styled.h1`
-  font-size: 3.5rem;
-  margin-bottom: 0;
+  font-size: 3.6rem;
+  margin-bottom: 2;
 `
 
 const LandingBio = () => (
@@ -34,6 +34,7 @@ const LandingBio = () => (
           siteMetadata {
             title
             subtitle
+            description
           }
         }
       }
@@ -42,7 +43,8 @@ const LandingBio = () => (
       <OuterContainer>
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
-          <Description>{data.site.siteMetadata.subtitle}</Description>
+          <Description>{data.site.siteMetadata.description}</Description>
+          <Description>お問い合わせやご連絡は、<a href= "https://scrapbox.io/keigahosoda/"> Scrapbox </a>や<a href= "https://twitter.com/hawking_h"> Twitter </a>をご覧ください。</Description>
         </Container>
       </OuterContainer>
     )}
