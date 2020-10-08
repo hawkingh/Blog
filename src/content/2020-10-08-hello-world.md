@@ -6,5 +6,3 @@ draft: false
 path: /blog/hello-world
 ---
 THIS IS SUPER SUMMER
-
-![same](/src/images/img_2906.jpg "stacked SAME")
