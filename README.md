@@ -1,1 +1,1 @@
-Source Code of https://blog.khosoda.net/
+Source Code of https://khosoda.net/
