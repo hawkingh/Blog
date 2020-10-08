@@ -11,7 +11,7 @@ collections:
     label: 'Blog'
     folder: 'src/content/'
     create: true
-    slug: 'test/{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Slug', name: 'slug', widget: 'string' }
