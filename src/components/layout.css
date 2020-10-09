@@ -41,8 +41,8 @@ template {
 }
 a {
   font-style: normal;
-  text-decoration: underline;
-  color: hsla(0, 0%, 0%, 0.8);
+  text-decoration: bold;
+  color: hsla(224, 86%, 51%, 0.8);
   -webkit-text-decoration-skip: objects;
 }
 a:active,
