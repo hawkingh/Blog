@@ -45,6 +45,7 @@ const LandingBio = () => (
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
           <Description>{data.site.siteMetadata.description}</Description>
           <Description>お問い合わせやご連絡は、<a href= "https://scrapbox.io/keigahosoda/"> Scrapbox </a>や<a href= "https://twitter.com/hawking_h"> Twitter </a>をご覧ください。</Description>
+          <Description>このサイトの文章は個人のもので、所属する機関には一切関係がありません。</Description>
         </Container>
       </OuterContainer>
     )}
