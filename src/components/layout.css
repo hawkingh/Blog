@@ -423,14 +423,14 @@ fieldset {
   margin-bottom: 1.45rem;
 }
 blockquote {
-  margin-left: 1.1rem;
-  margin-right: 1.1rem;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
   margin-top: 0;
   padding-bottom: 0.9rem;
   padding-left: 0.9rem;
   padding-right: 0.9rem;
   padding-top: 0.9rem;
-  margin-bottom: 1.1rem;
+  margin-bottom: 1.45rem;
   background-color: #ededed;
 }
 form {
