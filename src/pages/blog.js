@@ -22,7 +22,7 @@ const MarkerHeader = styled.h3`
   display: inline;
   color: #1850ed;
   text-decoration: underline;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-left: 10px;
   
   ::visited {
