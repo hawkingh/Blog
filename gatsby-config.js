@@ -10,12 +10,13 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-google-gtag`,
-      options: {  
-                trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
-                head: true,
-                    },
-     },
-       {
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+        head: true,
+        anonymize: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
