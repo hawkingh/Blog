@@ -3,19 +3,19 @@ module.exports = {
   siteMetadata: {
     title: `khosoda`,
     subtitle: `khosoda`,
-    description: `このサイトでは、khosoda (@hawking_h)が、日々の生活や研究に関する文章を公開しています。`,
+    description: `このサイトでは、khosoda (@hawking_h) が、日々の生活や研究に関する文章を公開しています。`,
     author: `@hawking_h`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
-        head: true,
-      },
-    },
-    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {  
+                trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+                head: true,
+                    },
+     },
+       {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
