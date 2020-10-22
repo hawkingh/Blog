@@ -13,7 +13,7 @@ module.exports = {
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
         head: true,
-        anonymize: true,
+        anonymize: false,
       },
     },
     {
