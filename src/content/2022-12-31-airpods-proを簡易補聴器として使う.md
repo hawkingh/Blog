@@ -26,6 +26,6 @@ Apple銀座店でこのような背景を話したら、快く試聴させてく
 \
 そういうわけで、これから自分に会う時はイヤホンをしているかもしれないが、こういう背景があるため勘弁してほしい。また、この手の話はもしかしたら困っている人もいるかもしれないので、質問がある場合は下記TwitterのDMを開けているので、そちらでお願いします。<https://twitter.com/Hawking_H>
 
-
-
 AirPods Proは見方を変えれば、ヒアリングの能力をチューニングする手段であるために、身体拡張の嚆矢なのかもしれない。人々の小さな困りごとが解決されていく、このような技術進歩を目にしていたい。
+
+<a href="https://www.amazon.co.jp/dp/B0BDJGFWP4?&linkCode=li2&tag=hawkingkami-22&linkId=cf456ab0be2156cf64458fc2ae7a8b94&language=ja_JP&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BDJGFWP4&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=hawkingkami-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=hawkingkami-22&language=ja_JP&l=li2&o=9&a=B0BDJGFWP4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
